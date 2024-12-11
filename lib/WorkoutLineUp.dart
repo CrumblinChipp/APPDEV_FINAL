@@ -1,3 +1,4 @@
+import 'ExerciseCard.dart';
 import 'UserProfile.dart';
 import 'package:flutter/material.dart';
 
@@ -100,7 +101,15 @@ class WorkoutLineUp extends StatelessWidget {
                                 onPressed: () {},
                                 icon: const Icon(Icons.add_circle_outline, color: Colors.blue),
                               ),
-                              const Icon(Icons.arrow_forward_ios, color: Colors.grey),
+                              IconButton(
+                                onPressed: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => ExerciseCard()),
+                                  );
+                                },
+                                icon: const Icon(Icons.arrow_forward_ios, color: Colors.grey),
+                              ),
                             ],
                           ),
                         ],
