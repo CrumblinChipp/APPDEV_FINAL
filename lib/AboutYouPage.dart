@@ -7,7 +7,7 @@ class AboutYouPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.teal[50],
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(

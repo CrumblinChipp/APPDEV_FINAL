@@ -7,7 +7,7 @@ class GetStartedScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 255, 128, 181),
+      backgroundColor: Colors.teal[50],
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,

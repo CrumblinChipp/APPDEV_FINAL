@@ -7,7 +7,7 @@ class CreateAccountScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -38,7 +38,7 @@ class CreateAccountScreen extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
                   gradient: const LinearGradient(
-                    colors: [Color.fromARGB(255, 59, 255, 242), Color.fromARGB(255, 244, 36, 154)],
+                    colors: [Color.fromARGB(255, 126, 255, 246), Color.fromARGB(255, 126, 255, 246)],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                   ),

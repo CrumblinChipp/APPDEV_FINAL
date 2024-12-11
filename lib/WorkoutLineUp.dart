@@ -6,7 +6,6 @@ class WorkoutLineUp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Mock data for workouts
     final workouts = [
       {'title': 'PUSH-UP', 'difficulty': 'EASY ENOUGH', 'type': 'UPPER BODY'},
       {'title': 'SQUATS', 'difficulty': 'EASY ENOUGH', 'type': 'LOWER BODY'},
@@ -27,7 +26,7 @@ class WorkoutLineUp extends StatelessWidget {
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-                color: Colors.pinkAccent,
+                color: Colors.blueAccent,
               ),
             ),
             const SizedBox(height: 16),
@@ -52,7 +51,7 @@ class WorkoutLineUp extends StatelessWidget {
                                 height: 50,
                                 width: 50,
                                 decoration: BoxDecoration(
-                                  color: Colors.pink[100],
+                                  color: Colors.teal[100],
                                   borderRadius: BorderRadius.circular(25),
                                 ),
                                 child: const Center(
@@ -99,7 +98,7 @@ class WorkoutLineUp extends StatelessWidget {
                             children: [
                               IconButton(
                                 onPressed: () {},
-                                icon: const Icon(Icons.add_circle_outline, color: Colors.pink),
+                                icon: const Icon(Icons.add_circle_outline, color: Colors.blue),
                               ),
                               const Icon(Icons.arrow_forward_ios, color: Colors.grey),
                             ],

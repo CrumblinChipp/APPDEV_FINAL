@@ -7,7 +7,7 @@ class BodyDataForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.teal[50],
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
@@ -15,9 +15,8 @@ class BodyDataForm extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const SizedBox(height: 20), // Top padding
+                const SizedBox(height:60), 
 
-                // Header Section
                 const Center(
                   child: Column(
                     children: [
@@ -36,7 +35,6 @@ class BodyDataForm extends StatelessWidget {
                 ),
                 const SizedBox(height: 32),
 
-                // Height Input Section
                 const Text(
                   'ENTER YOUR HEIGHT',
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),

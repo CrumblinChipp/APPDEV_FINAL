@@ -5,9 +5,9 @@ class WorkoutDashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.pinkAccent.shade100, Colors.white],
+            colors: [Colors.teal, Colors.grey],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
           ),
@@ -22,7 +22,7 @@ class WorkoutDashboard extends StatelessWidget {
                 Navigator.pop(context);
               },
               child: const Icon(Icons.arrow_back, size: 30, color: Colors.black),
-            ),            
+            ),
             const SizedBox(height: 20),
             Center(
               child: Column(
@@ -79,7 +79,7 @@ class WorkoutDashboard extends StatelessWidget {
                   child: Container(
                     height: 270,
                     decoration: BoxDecoration(
-                      color: Colors.redAccent,
+                      color: Colors.blue,
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: const Column(
@@ -185,7 +185,7 @@ class StatusCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Icon(icon, size: 40, color: Colors.orange),
+        Icon(icon, size: 40, color: const Color.fromARGB(255, 0, 0, 120)),
         const SizedBox(height: 8),
         Text(label, style: const TextStyle(fontSize: 14, color: Colors.black54)),
         const SizedBox(height: 4),
