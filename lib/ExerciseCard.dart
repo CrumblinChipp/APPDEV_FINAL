@@ -46,28 +46,6 @@ class ExerciseCard extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 16),
-
-            // Illustration and Statistics
-            const Row(
-              children: [
-                SizedBox(width: 8),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'STATISTICS',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 16),
-
             // How to do it section
             const Text(
               'HOW TO DO IT PROPERLY',

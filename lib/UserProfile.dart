@@ -106,7 +106,6 @@ class UserProfile extends StatelessWidget {
               ),
               const Divider(height: 40, thickness: 1, color: Colors.grey),
 
-              // Daily Workout Section
               const Text(
                 'DAILY WORKOUT',
                 style: TextStyle(
